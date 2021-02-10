@@ -1,0 +1,750 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #000;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Nunito', sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background: #fff;
+  display: clear;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 9px;
+  text-align: start;
+}
+
+.one {
+  margin: 20px;
+  background: #dcedc2;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.blog-posts {
+  max-width: 70%;
+}
+
+.blog {
+  border-radius: 6px;
+  height: 160px;
+  padding: 20px;
+  padding-bottom: 30px;
+  background: #fff;
+  margin: 21px 40px;
+  overflow: hidden;
+  max-width: 100%;
+  text-align: start;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.blog a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog a p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  border-bottom: 1px solid #08d9d6;
+  padding-bottom: 3px;
+}
+
+.blog .add-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6px;
+  margin-bottom: 50px;
+}
+
+.blog .add-info p {
+  margin-left: 20px;
+  border: none;
+}
+
+.blog .add-info p:first-child {
+  padding-right: 20px;
+  border-right: 1px solid #000;
+}
+
+.icon {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.yapyap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+input:focus {
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+input#password1:target {
+  background: black;
+}
+
+.they {
+  background: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  display: block;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 14px;
+}
+
+.they a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.header {
+  background: #cadefc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
+
+.header .container {
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.header .container h5 {
+  font-size: 28px;
+}
+
+.header .container a.logo {
+  margin-left: 40px;
+}
+
+.header .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 30px;
+}
+
+.header .container nav.school {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header .container nav.getstarted {
+  background: #000;
+  border-radius: 6px;
+  padding: 7px 16px 9px;
+  margin-right: 40px;
+  display: block;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  cursor: pointer;
+}
+
+.header .container nav.getstarted a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.header .container nav a {
+  font-size: 14px;
+}
+
+.boby {
+  height: calc(100vh - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boby .form-at {
+  margin: 121px 140px;
+  background: #fff;
+  height: 470px;
+  margin-bottom: 30px;
+  width: 390px;
+  position: relative;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.boby .form-at form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 620px;
+  height: 480px;
+  align-items: center;
+}
+
+.boby .form-at h4 {
+  font-size: 31px;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  font-weight: 600;
+}
+
+.boby .form-at h5 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.boby .form-at h5:first-child {
+  margin-top: 50px;
+}
+
+.sidebar {
+  margin: 21px 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100;
+  z-index: 900;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 262px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h3 {
+  font-size: 22px;
+  background: #eaff2a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+}
+
+.sidebar p {
+  font-size: 15px;
+  font-weight: 600;
+  max-width: 80%;
+}
+
+.sidebar h4 {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 24px;
+  margin-left: 30px;
+}
+
+.sidebar h4 i {
+  margin-top: 3px;
+  margin-left: 4px;
+  font-size: 22px;
+}
+
+.sidebar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar ul li {
+  margin-left: 30px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+}
+
+.sidebar ul li a i {
+  font-size: 36px;
+}
+
+.blog-posts-detail {
+  width: 70%;
+  margin: 0 40px 20px 0;
+}
+
+.blog-posts-detail .blog {
+  margin-top: 0;
+  padding-top: 0;
+  max-height: 30px;
+  height: 30px;
+  display: block;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.blog-posts-detail .blog .time {
+  margin-left: auto;
+}
+
+.blog-posts-detail .comments {
+  width: 100%;
+  padding: 14px 19px;
+  border-radius: 6px;
+  background: #fff;
+  margin: 21px 40px;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.blog-posts-detail .comments h5 {
+  font-size: 17px;
+  text-align: start;
+}
+
+.blog-posts-detail .comments p {
+  font-size: 14px;
+}
+
+.blog-posts-detail .comments p.comment {
+  text-indent: 24px;
+}
+
+.blog-posts-detail .comments .add-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6px;
+  margin-bottom: 5px;
+}
+
+.blog-posts-detail .comments .add-info p {
+  margin-left: 20px;
+  border: none;
+}
+
+.blog-posts-detail .comments .add-info p:first-child {
+  margin-right: auto;
+}
+
+.blog-posts-detail .post-detail {
+  border-radius: 6px;
+  padding: 20px;
+  padding-bottom: 21px;
+  background: #e3fdfd;
+  margin: 21px 40px 10px;
+  overflow: hidden;
+  min-width: 100%;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.4);
+}
+
+.blog-posts-detail .post-detail h2 {
+  font-size: 37px;
+  margin-bottom: 37px;
+}
+
+.blog-posts-detail .post-detail p {
+  text-align: start;
+  text-indent: 24px;
+}
+
+.pol {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.pol .texte {
+  width: 50%;
+  margin: 0;
+}
+
+.pol .texte h2 {
+  font-size: 64px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.pol .err {
+  width: 50%;
+}
+
+.pol .err img {
+  max-width: 70%;
+}
+
+.article {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: calc(100vh - 140px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article .they {
+  height: calc(100vh / 2);
+  width: 80%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.article .they h2 {
+  text-align: center;
+  font-size: 61px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+
+.article a {
+  height: 200px;
+  width: 80%;
+}
+
+.article a .theye {
+  height: 200px;
+  background: #ff2e63;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  -webkit-box-shadow: inset 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+.article a .theye h3 {
+  text-align: center;
+  font-size: 31px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.school-information {
+  height: calc(100vh - 100px);
+  position: relative;
+  margin: auto;
+  max-width: 100%;
+  margin: 0 41px;
+}
+
+.school-information .container .school-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.school-information .container .school-img img {
+  max-width: 750px;
+  width: 100%;
+}
+
+.school-information .container .school-info {
+  width: 100%;
+}
+
+.school-information .container .school-info h2 {
+  font-size: 38px;
+  margin-bottom: 21px;
+}
+
+.school-information .container .school-info p {
+  text-indent: 50px;
+  text-align: start;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+
+.school-information .container .school-info p bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.school-information .container .public-info {
+  width: 100%;
+}
+
+.school-information .container .public-info h3 {
+  margin-top: 100px;
+  font-size: 38px;
+}
+
+.school-information .container .public-info ul {
+  display: block;
+  margin-bottom: 120px;
+}
+
+.school-information .container .public-info ul li {
+  text-align: start;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+
+.school-information .container .public-info ul li bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.school-information .container .public-info ul li.end {
+  padding-bottom: 78px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .container .school {
+    display: none;
+  }
+  .header .container .membership {
+    display: none;
+  }
+  .header .container nav.getstarted {
+    margin-right: 20px;
+  }
+  .blog-posts {
+    max-width: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog-posts .blog a p {
+    padding-bottom: 2px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .boby {
+    height: calc(100vh - 100px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .boby .form-at {
+    margin: 21px 140px;
+  }
+  .boby .form-at form {
+    width: 335px;
+  }
+  .school-information {
+    height: calc(100vh - 100px);
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    margin: 0 21px;
+  }
+  .school-information .container .school-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .school-information .container .school-img img {
+    max-width: 750px;
+    width: 100%;
+  }
+  .school-information .container .school-info {
+    width: 100%;
+  }
+  .school-information .container .school-info h2 {
+    font-size: 29px;
+    margin-bottom: 49px;
+    margin-top: 27px;
+  }
+  .school-information .container .school-info p {
+    text-indent: 50px;
+    text-align: start;
+    font-size: 15px;
+    margin-bottom: 79px;
+  }
+  .school-information .container .school-info p bold {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .school-information .container .public-info {
+    width: 100%;
+  }
+  .school-information .container .public-info h3 {
+    margin-top: 100px;
+    font-size: 27px;
+  }
+  .school-information .container .public-info ul {
+    display: block;
+    margin-bottom: 120px;
+  }
+  .school-information .container .public-info ul li {
+    text-align: start;
+    font-size: 13px;
+    margin-bottom: 21px;
+  }
+  .school-information .container .public-info ul li bold {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .school-information .container .public-info ul li.end {
+    padding-bottom: 78px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
